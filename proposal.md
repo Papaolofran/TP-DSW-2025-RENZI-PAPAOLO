@@ -14,7 +14,7 @@ Tienda Online de Productos para Gimnasio.
 Es una plataforma de comercio electrónico especializada en la venta de productos enfocados al ámbito del fitness y gimnasio, en la cual se listarán de manera categorizada suplementos, ropa deportiva, accesorios y otros productos relacionados. Se contará con funcionalidades que mejorarán tanto la experiencia de los clientes como la de los administradores, como pueden ser la gestión de productos, pedidos, pagos, revisiones, etc.
 
 ### Modelo
-[Modelo de Dominio 1.0.0.pdf](https://github.com/user-attachments/files/22215989/Modelo.de.Dominio.1.0.0.pdf)
+![Modelo](https://github.com/Papaolofran/TP-DSW-2025-RENZI-PAPAOLO/blob/main/Modelo%20de%20Dominio.png)
 
 ## Alcance Funcional 
 
@@ -23,9 +23,9 @@ Es una plataforma de comercio electrónico especializada en la venta de producto
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Categoria<br>2. CRUD Usuario|
-|CRUD dependiente|1. CRUD Producto {depende de} CRUD Categoria|
-|Listado<br>+<br>detalle| 1. Listado de Producto filtrado por Categoria, muestra nombre de Categoria => nombre, precio e imagen CRUD Producto|
+|CRUD simple|1. CRUD Producto<br>2. CRUD Usuario|
+|CRUD dependiente|1. CRUD Variante {depende de} CRUD Producto|
+|Listado<br>+<br>detalle| 1. Listado de Producto filtrado por Categoria o marca, muestra nombre de Categoria => nombre, precio e imagen CRUD Producto|
 |CUU/Epic|1. Realizar orden<br>|
 
 
